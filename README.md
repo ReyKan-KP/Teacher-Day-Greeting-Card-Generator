@@ -6,7 +6,7 @@ This Python script creates a beautiful Teacher's Day greeting card using the Pyt
 Clone the repository:
    ```bash
    git clone https://github.com//ReyKan-KP/Teacher-Day-Greeting-Card-Generator.git
-   cd ms-assignment-1
+   cd Teacher-Day-Greeting-Card-Generator
    ```
 
 ## Prerequisites
