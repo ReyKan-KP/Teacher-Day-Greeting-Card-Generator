@@ -1,11 +1,7 @@
-# Kanishaka Pranjal
-# S20210010108
-# MS Assignment 1
-
 from PIL import Image, ImageFont, ImageDraw
 import os
 
-image = Image.open("S20210010108_InputImage.png")
+image = Image.open("InputImage.png")
 createImg = ImageDraw.Draw(image)
 
 print("Image size:", image.size)
@@ -30,6 +26,6 @@ createImg.text((60, 250), secondaryText, font=secondaryFont, fill="#ee9358")
 createImg.text((120, 510), tertiaryText, font=tertiaryFont, fill="#ee9358")
 createImg.text((400, 630), createText, font=createFont, fill="#f34f58")
 
-image.save("S20210010108_OutputImage.png")
+image.save("OutputImage.png")
 
 image.show()
