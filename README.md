@@ -2,6 +2,13 @@
 
 This Python script creates a beautiful Teacher's Day greeting card using the Python Imaging Library (PIL). The script takes an input image, adds meaningful text using different fonts, and saves the output as a new image.
 
+### Usage
+Clone the repository:
+   ```bash
+   git clone https://github.com//ReyKan-KP/Teacher-Day-Greeting-Card-Generator.git
+   cd ms-assignment-1
+   ```
+
 ## Prerequisites
 
 Before running the script, make sure you have the required libraries, fonts, and an input image.
@@ -25,7 +32,7 @@ pip install pillow
 ## How to Run
 
 ```bash
-python greeting_card_generator.py
+python main.py
 ```
 
 This command will execute the script, and the output will be saved as `OutputImage.png` in the same directory.
